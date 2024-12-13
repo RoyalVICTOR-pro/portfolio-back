@@ -33,7 +33,7 @@ export default class ContactsController {
         })
       }
 
-      // console.error('Contact creation error:', error)
+      console.error('Contact creation error:', error)
       return response.status(500).send({
         status: 'error',
         type: 'server',
